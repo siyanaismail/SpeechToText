@@ -1,17 +1,17 @@
-# 🎙️ Speech to Text Converter using Python
+# Speech to Text Converter using Python
 
 This project is a simple speech recognition tool that takes microphone input and converts it to text using Google's speech recognition API.
 
-## 📌 Features
+## Features
 
-- 🎤 Capture audio from microphone
-- 🔊 Convert speech to text using `speech_recognition`
-- 👩‍💻 Prints the transcribed text to the console
-- 🧑‍🎓 Beginner-friendly and easy to extend
+- Capture audio from microphone
+- Convert speech to text using `speech_recognition`
+- Prints the transcribed text to the console
+- Beginner-friendly and easy to extend
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 SpeechToText/
@@ -22,7 +22,7 @@ SpeechToText/
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 Make sure Python is installed (Python 3.6+ recommended)
 
@@ -34,7 +34,7 @@ pip install pyttsx3
 pip install pyaudio
 ```
 
-> ⚠️ If you face issues installing `pyaudio`, try this:
+> If you face issues installing `pyaudio`, try this:
 >
 > ```bash
 > pip install pipwin
@@ -43,7 +43,7 @@ pip install pyaudio
 
 ---
 
-## 💡 How to Use
+## How to Use
 
 1. Connect a working microphone.
 2. Run the script:
@@ -57,7 +57,7 @@ python speech_to_text.py
 
 ---
 
-## 📜 Example Output
+## Example Output
 
 ```
 say something.....
